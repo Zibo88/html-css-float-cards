@@ -20,7 +20,7 @@ body {
 .container {
     width: 70%;
     margin: auto;
-    text-align: center;
+    
 }
 
 /* ---- header ------- */
@@ -28,6 +28,11 @@ body {
 h1{
     color: #e5316f;
     padding: 15px;
+}
+
+header {
+    text-align: center;
+
 }
 
 /* -----Main------ */
@@ -48,17 +53,15 @@ h1{
 }
 
 .caption {
-    text-align: left;
-    padding-left: 100px;
+    width: calc(100% - 80px);
     line-height: 2;
+    padding-left: 100px;
 }
 
 img {
     width: 80px;
     float: left;
 }
-
-
 
 .name {
     font-weight: 600;
@@ -67,12 +70,11 @@ img {
 
 .work {
     font-size: 10px;
-    f
+    
 }
 
 .email {
-    
-    color: #174f83;
+    color: #1964b7;
     font-size: 10px;
     
 }
